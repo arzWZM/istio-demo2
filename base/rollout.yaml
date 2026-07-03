@@ -6,7 +6,8 @@ spec:
   template:
     metadata:
       labels:
-        app: ‎rollout-example‎
+        app: ‎rollout-example
+        version: v1‎
     spec:
       containers:
         - name: app
