@@ -7,7 +7,7 @@ spec:
     metadata:
       labels:
         app: rollout-example-2
-        version: v2‎
+        version: v2
     spec:
       containers:
         - name: app
