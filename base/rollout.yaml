@@ -4,6 +4,9 @@ metadata:
   name: rollout-example
 spec:
   template:
+    metadata:
+      labels:
+        app: ‎rollout-example‎
     spec:
       containers:
         - name: app
