@@ -3,4 +3,4 @@ kind: Kustomization
 bases:
 - ../../base
 patchesStrategicMerge:
-- rollout.yaml
+- virtualservice.yaml
