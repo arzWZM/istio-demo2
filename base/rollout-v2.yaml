@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: rollout-example
+  name: rollout-example-2
 spec:
   template:
     metadata:
       labels:
-        app: ‎rollout-example
+        app: rollout-example-2
         version: v2‎
     spec:
       containers:
