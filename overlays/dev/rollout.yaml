@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: frontend-rollout
+  name: rollout-example
 spec:
   template:
     spec:
