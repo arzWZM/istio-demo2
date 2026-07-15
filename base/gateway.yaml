@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1
 kind: Gateway
 metadata:
-  name: istio-rollout-gateway
+  name: istio-demo2-rollout-gateway
   namespace: istio-system
 spec:
   selector:
