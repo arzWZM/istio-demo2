@@ -8,6 +8,8 @@ spec:
       app: rollouts-example
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"    
       labels:
         app: rollout-example
     spec:
