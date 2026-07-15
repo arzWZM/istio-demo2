@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - rollout.yaml
   - service.yaml
+  - virtualservice.yaml  
+  - destinationrule.yaml  
   - gateway.yaml
-  - virtualservice.yaml
-  - destinationrule.yaml
+
