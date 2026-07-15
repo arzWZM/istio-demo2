@@ -6,7 +6,7 @@ spec:
   gateways:
   - istio-system/istio-demo2-rollout-gateway
   hosts:
-  - istio-rollout.dev.argoproj.io
+  - istio-demo2.local
   http:
   - name: primary       # referenced in canary.trafficRouting.istio.virtualService.routes
     route:
