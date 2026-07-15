@@ -15,4 +15,4 @@ spec:
         - "istio-rollout.local"       
       tls:
         mode: SIMPLE
-        credentialName: istio-example-credential    
+        credentialName: istio-example-credential-demo2
