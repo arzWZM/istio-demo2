@@ -25,7 +25,7 @@ spec:
             routes:
             - primary                 # optional if there is a single route in VirtualService, required otherwise
           destinationRule:
-            name: rollout-destrule-demo2    # required
+            name: rollout-demo2-destrule    # required
             canarySubsetName: canary-demo2  # required
             stableSubsetName: stable-demo2  # required
       steps:
