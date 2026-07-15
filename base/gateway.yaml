@@ -13,6 +13,6 @@ spec:
         protocol: HTTPS
       hosts:
         - "istio-demo2.local"       
-      tls:
-        mode: SIMPLE
-        credentialName: istio-example-credential-demo2
+      #tls:
+      #  mode: SIMPLE
+      #  credentialName: istio-example-credential-demo2
