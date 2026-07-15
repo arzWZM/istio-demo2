@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: rollouts-demo2
+      app: rollout-demo2
   template:
     metadata:
       annotations:
